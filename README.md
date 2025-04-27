@@ -29,22 +29,67 @@ In short, Arterys is not just enhancing the speed and accuracy of medical imagin
 Credit: Dr. Nambili Samuel, a certified physician with extensive experience in the medical field and an AI researcher, brings a unique blend of healthcare expertise and cutting-edge technology knowledge to his work. His contributions to the intersection of AI and medicine are aimed at advancing diagnostic accuracy and improving patient care. [Dr. Nambili Samuel](https://scholar.google.com/citations?user=p2GpjsQAAAAJ&hl=en)
 
 
+# Let's write the improved README to a file and provide it for download
+readme_content = """
+# Arterys Project
+
+Arterys is a cutting-edge cloud-based platform designed to enhance the analysis and sharing of radiological data using AI-powered solutions. This repository contains the necessary tools and scripts to integrate medical image analysis using Arterys' services, allowing healthcare providers to process DICOM studies and receive AI-generated insights.
+
 ## Features
-- Upload DICOM studies to Arterys cloud
-- Request AI analysis of medical images
-- Support for multiple workflows (cardiac, pulmonary, etc.)
-- Command-line interface for batch processing
+
+- **DICOM Study Upload**: Easily upload medical images in DICOM format to Arterys' cloud platform.
+- **AI-Powered Image Analysis**: Leverage Arterys' AI capabilities for automated analysis of medical images.
+- **Multi-Workflow Support**: Choose from a variety of AI workflows, including cardiac, pulmonary, and more.
+- **Batch Processing**: Execute batch processing of DICOM files using a command-line interface for efficient workflow management.
+- **Intuitive Command-Line Interface**: Simple CLI tools to handle DICOM file processing, making it easy to integrate into your existing systems.
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Configure your API credentials in `.env/arterys.env`
-4. Run the processing script: `python scripts/process_study.py data/input/sample.dcm`
+### Prerequisites
 
-## Documentation
-- [API Reference](docs/API_REFERENCE.md)
-- [Setup Guide](docs/SETUP.md)
+- Python 3.8+ installed
+- Arterys API credentials (obtain via the Arterys platform)
+- DICOM files ready for analysis
+
+### Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Nambili-Samuel/arterys-project.git
+    cd arterys-project
+    ```
+
+2. **Set up a virtual environment**:
+    - For **Windows**:
+      ```bash
+      python -m venv venv
+      venv\Scripts\activate
+      ```
+    - For **Linux/macOS**:
+      ```bash
+      python3 -m venv venv
+      source venv/bin/activate
+      ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Configure API credentials**:
+    - Copy the example configuration file:
+      ```bash
+      cp .env/arterys.example .env/arterys.env
+      ```
+    - Open `.env/arterys.env` and add your **Arterys API credentials**.
+
+### Usage
+
+To start processing a sample DICOM file:
+
+```bash
+python scripts/process_study.py data/input/sample.dcm --workflow cardiac_mri
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
