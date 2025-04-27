@@ -1,0 +1,4 @@
+# Arterys API Configuration
+ARTERYS_API_KEY=your_api_key_here
+ARTERYS_API_URL=https://api.arterys.com/
+ARTERYS_CLIENT_ID=your_client_id

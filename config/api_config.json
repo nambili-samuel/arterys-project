@@ -1,0 +1,8 @@
+{
+    "auth_endpoint": "/oauth2/token",
+    "upload_endpoint": "/api/v2/studies",
+    "analysis_endpoint": "/api/v2/analysis",
+    "default_workflow": "cardiac_mri",
+    "timeout": 30,
+    "max_retries": 3
+}

@@ -1,0 +1,11 @@
+{
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        "filename": "arterys.log"
+    },
+    "dicom": {
+        "max_file_size": 104857600,
+        "allowed_modalities": ["MR", "CT", "US"]
+    }
+}
