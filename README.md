@@ -5,9 +5,9 @@
 
 A Python project for interacting with the Arterys medical imaging AI platform via its API. Arterys is a cutting-edge cloud-based platform designed to enhance the analysis and sharing of radiological data using AI-powered solutions. This repository contains the necessary tools and scripts to integrate medical image analysis using Arterys' services, allowing healthcare providers to process DICOM studies and receive AI-generated insights.
 
-[Arterys](https://www.arterys.com/) aims to transform how radiological data is analyzed and shared, offering cloud-based, AI-enabled platforms that allow healthcare providers to gain deeper and faster insights from radiology images. By leveraging powerful algorithms and cloud technology, Arterys is breaking down traditional barriers in healthcare delivery and diagnosis.
+[Arterys](https://www.arterys.com/) aims to transform how radiological data is analyzed and shared, offering cloud-based, AI-enabled platforms that allow healthcare providers to gain deeper and faster insights from radiology images. By leveraging powerful algorithms and cloud technology, Arterys is breaking down traditional barriers in healthcare delivery and diagnosis. [Dr. Nambili Samuel](https://scholar.google.com/citations?user=p2GpjsQAAAAJ&hl=en), a certified physician with extensive experience in the medical field and an AI researcher, brings a unique blend of healthcare expertise and cutting-edge technology knowledge to his work. His contributions to the intersection of AI and medicine are aimed at advancing diagnostic accuracy and improving patient care. 
 
-The company's main innovation lies in its ability to deliver real-time, automated image interpretation across multiple imaging modalities, including [Magnetic Resonance Imaging (MRI)](https://www.radiologyinfo.org/en/info/mri), [Computed Tomography (CT)](https://www.radiologyinfo.org/en/info/ctscan), [X-ray](https://www.radiologyinfo.org/en/info/xray), and even [Ultrasound](https://www.radiologyinfo.org/en/info/ultrasound). Instead of relying solely on human interpretation, physicians can now access AI-generated measurements, diagnostic suggestions, and structured reports, significantly enhancing diagnostic accuracy and reducing reporting times.
+The Arterys' main innovation lies in its ability to deliver real-time, automated image interpretation across multiple imaging modalities, including [Magnetic Resonance Imaging (MRI)](https://www.radiologyinfo.org/en/info/mri), [Computed Tomography (CT)](https://www.radiologyinfo.org/en/info/ctscan), [X-ray](https://www.radiologyinfo.org/en/info/xray), and even [Ultrasound](https://www.radiologyinfo.org/en/info/ultrasound). Instead of relying solely on human interpretation, physicians can now access AI-generated measurements, diagnostic suggestions, and structured reports, significantly enhancing diagnostic accuracy and reducing reporting times.
 
 <p align="center">
   <img src="https://github.com/nambili-samuel/arterys-project/blob/main/arterys.jpg" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
@@ -26,8 +26,6 @@ Arterys also encourages continual learning and improvement of its AI models by p
 Looking ahead, Arterys is expanding into areas like [population health management](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8466591/) and predictive analytics, aiming to help healthcare systems identify at-risk patients earlier, optimize treatments, and improve outcomes at scale. As healthcare increasingly moves towards personalized, data-driven care, platforms like Arterys are poised to play a pivotal role in shaping the future of diagnostics and treatment planning worldwide.
 
 In short, Arterys is not just enhancing the speed and accuracy of medical imaging — it is redefining what is possible when artificial intelligence meets clinical expertise. By providing real-time, AI-powered insights at the point of care, Arterys is empowering doctors to make faster, smarter decisions that ultimately benefit patients around the globe.
-
-Credit: Dr. Nambili Samuel, a certified physician with extensive experience in the medical field and an AI researcher, brings a unique blend of healthcare expertise and cutting-edge technology knowledge to his work. His contributions to the intersection of AI and medicine are aimed at advancing diagnostic accuracy and improving patient care. [Dr. Nambili Samuel](https://scholar.google.com/citations?user=p2GpjsQAAAAJ&hl=en)
 
 
 ## Features
@@ -85,6 +83,3 @@ To start processing a sample DICOM file:
 ```bash
 python scripts/process_study.py data/input/sample.dcm --workflow cardiac_mri
 
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
