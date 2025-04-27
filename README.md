@@ -1,6 +1,6 @@
 # Arterys DICOM Processing Project
 <p align="center">
-  <img src="banner.jpeg" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
+  <img src="https://media.licdn.com/dms/image/v2/C561BAQHB4CAyIvw-oQ/company-background_10000/company-background_10000/0/1636408064637/arterys_cover?e=1746385200&v=beta&t=VbK8JFvGSqZNI_1Jbj3OdtriSs6XkwvvfbTGxizMxEY" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
 </p>
 
 A Python project for interacting with the Arterys medical imaging AI platform via its API.
