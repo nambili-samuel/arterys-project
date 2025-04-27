@@ -8,6 +8,10 @@ A Python project for interacting with the Arterys medical imaging AI platform vi
 
 The company's main innovation lies in its ability to deliver real-time, automated image interpretation across multiple imaging modalities, including [Magnetic Resonance Imaging (MRI)](https://www.radiologyinfo.org/en/info/mri), [Computed Tomography (CT)](https://www.radiologyinfo.org/en/info/ctscan), [X-ray](https://www.radiologyinfo.org/en/info/xray), and even [Ultrasound](https://www.radiologyinfo.org/en/info/ultrasound). Instead of relying solely on human interpretation, physicians can now access AI-generated measurements, diagnostic suggestions, and structured reports, significantly enhancing diagnostic accuracy and reducing reporting times.
 
+<p align="center">
+  <img src="https://github.com/nambili-samuel/arterys-project/blob/main/arterys.jpg" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
+</p>
+
 Using Arterys begins with securely uploading medical images to its cloud platform via an encrypted interface. The platform processes these images through deep learning algorithms specifically trained for tasks such as lesion detection, organ segmentation, anomaly spotting, and disease progression tracking. Once the analysis is complete, the results are presented in an intuitive dashboard where physicians can validate findings, make adjustments, and finalize reports ready for integration into hospital information systems like [Electronic Health Records (EHRs)](https://www.himss.org/resources/what-electronic-health-record-ehr).
 
 A key application of Arterys technology is in [cardiology](https://www.acc.org/). The Cardio AI solution enables fast, reproducible measurements of blood flow, heart function, and cardiac volumes from MRI scans, replacing labor-intensive manual workflows. For lung imaging, Arterys Lung AI helps detect and monitor pulmonary nodules, which are critical for early-stage lung cancer detection. Meanwhile, Oncology AI provides clinicians with tools to assess tumor progression, response to therapy, and automate RECIST 1.1 measurements in oncology imaging.
