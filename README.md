@@ -3,8 +3,10 @@
   <img src="https://media.licdn.com/dms/image/v2/C561BAQHB4CAyIvw-oQ/company-background_10000/company-background_10000/0/1636408064637/arterys_cover?e=1746385200&v=beta&t=VbK8JFvGSqZNI_1Jbj3OdtriSs6XkwvvfbTGxizMxEY" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
 </p>
 
-[![Arterys Video](https://img.youtube.com/vi/bUcRsrEezL0/0.jpg](https://img.youtube.com/vi/bUcRsrEezL0/maxresdefault.jpg)(https://www.youtube.com/watch?v=bUcRsrEezL0)
 A Python project for interacting with the Arterys medical imaging AI platform via its API. Arterys is a cutting-edge cloud-based platform designed to enhance the analysis and sharing of radiological data using AI-powered solutions. This repository contains the necessary tools and scripts to integrate medical image analysis using Arterys' services, allowing healthcare providers to process DICOM studies and receive AI-generated insights.
+
+Arterys, a medical imaging company specializing in AI-powered diagnostic tools, was co-founded by [Dr. Fabien Beckers](https://www.youtube.com/watch?v=bUcRsrEezL0), John Axerio-Cilies, and Shreyas Vasanawala. Fabien Beckers, who holds a PhD in Quantum Physics from the University of Cambridge and an MBA from Stanford University, served as the CEO of Arterys. The company was established with the aim of leveraging cloud computing and deep learning to enhance medical imaging, particularly in cardiology and oncology. 
+Fierce Healthcare.
 
 [Arterys](https://www.arterys.com/) aims to transform how radiological data is analyzed and shared, offering cloud-based, AI-enabled platforms that allow healthcare providers to gain deeper and faster insights from radiology images. By leveraging powerful algorithms and cloud technology, Arterys is breaking down traditional barriers in healthcare delivery and diagnosis. [Dr. Nambili Samuel](https://scholar.google.com/citations?user=p2GpjsQAAAAJ&hl=en), a certified physician with extensive experience in the medical field and an AI researcher, brings a unique blend of healthcare expertise and cutting-edge technology knowledge to his work. His contributions to the intersection of AI and medicine are aimed at advancing diagnostic accuracy and improving patient care. 
 
