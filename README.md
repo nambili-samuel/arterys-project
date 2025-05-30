@@ -1,6 +1,6 @@
 # Arterys Project
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/C561BAQHB4CAyIvw-oQ/company-background_10000/company-background_10000/0/1636408064637/arterys_cover?e=1746385200&v=beta&t=VbK8JFvGSqZNI_1Jbj3OdtriSs6XkwvvfbTGxizMxEY" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJwyiwiKPFumufNhyWYj8EWTOjDILifWmBcf4YY8KT3tqVEtbMo41YiYMnK_9mAaNpC7kk_QIYg0Fv6s30fVnzbUsDYiI8FARIN40Fw7pdpdciQAQ6G2uScIRL0OeAN209QuOWPeOR3bxNgtwdvvBp69w7zNtko880ahHw15JIpC1BSipixNH7lTT6ZK_p/s16000/arterys_cover.jpeg" alt="Arterys Project Banner" style="width:100%;max-width:1000px;">
 </p>
 
 A Python project for interacting with the Arterys medical imaging AI platform via its API. Arterys is a cutting-edge cloud-based platform designed to enhance the analysis and sharing of radiological data using AI-powered solutions. This repository contains the necessary tools and scripts to integrate medical image analysis using Arterys' services, allowing healthcare providers to process DICOM studies and receive AI-generated insights.
